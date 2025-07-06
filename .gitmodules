@@ -1,3 +1,6 @@
 [submodule "raspberry_pi_gpio_library"]
 	path = raspberry_pi_gpio_library
 	url = https://github.com/joan2937/pigpio.git
+[submodule "Abstractions"]
+	path = Abstractions
+	url = git@github.com:CarlOsterberg/Abstractions.git

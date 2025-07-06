@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 4.0.1)
 project(untitled)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 
+add_subdirectory(Abstractions)
 add_subdirectory(raspberry_pi_gpio_library)
 add_subdirectory(sensor_reader)
 
